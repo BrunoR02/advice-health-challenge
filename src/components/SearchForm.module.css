@@ -1,0 +1,15 @@
+.searchInput{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #ccc;
+  outline: none;
+}
+
+.searchButton{
+  position: relative;
+  width: 25px;
+  border: none;
+  background-color: transparent;
+  transform: translateX(-180%)
+}

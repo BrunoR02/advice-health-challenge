@@ -1,0 +1,12 @@
+.list{
+  width: 100%;
+  height: 600px;
+  padding-bottom: 20px;
+  overflow-y: scroll;
+}
+
+.noSelectText{
+  position: relative;
+  text-align: center;
+  top: 250px;
+}

@@ -7,7 +7,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+ul,li{
+  list-style: none;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+section .react-calendar{
+  position: relative;
+  width: 100%;
+}
+
+.react-calendar .react-calendar__tile--active{
+  background-color: #444 !important;
+}
+
+.react-calendar .react-calendar__tile--now{
+  background-color: #ddd;
+}
+
+.react-calendar .react-calendar__tile--now:enabled:hover{
+  background-color: #ddd;
+}
+

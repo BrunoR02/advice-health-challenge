@@ -1,0 +1,32 @@
+.list{
+  overflow-y: scroll;
+  height: 300px;
+}
+
+div .item{
+  background-color: #d9d9d9;
+  border: none;
+  cursor: pointer;
+}
+
+div .item:hover{
+  background-color:#c1c1c1;
+}
+
+.info{
+  margin-left: 25px;
+}
+
+.name{
+  margin: 0;
+  font-size: 1.1em;
+  color: #111;
+}
+
+.field{
+  color: #555;
+}
+
+div .doctorActive{
+  background-color:#939393 !important;
+}
